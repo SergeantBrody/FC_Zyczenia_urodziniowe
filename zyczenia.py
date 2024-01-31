@@ -1,0 +1,11 @@
+print("Podaj swoje imie")
+imie_nadawcy = input()
+print("Podaj imie odbiorcy")
+imie_odbiorcy = input()
+print("Podaj rok urodzenia odbiorcy")
+rok_urodzenia = input()
+print("Podaj swoja spersonalizowana wiadomosc")
+wiadomosc = input()
+rok_urodzenia = int(rok_urodzenia)
+wiek = 2024 - rok_urodzenia
+print(f'{imie_odbiorcy}, wszystkiego najlepszego z okazji {wiek} urodzin ! \n{wiadomosc} \n{imie_nadawcy}' )
